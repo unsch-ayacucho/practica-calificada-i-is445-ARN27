@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-schema="cargabd" match-name=".*"/>
+  <table-filter match-catalog="cargabd" match-name="carga"/>
+  <table-filter match-catalog="cargabd" match-name="carga_curso"/>
+  <table-filter match-catalog="cargabd" match-name="curso"/>
+  <table-filter match-catalog="cargabd" match-name="docente"/>
+  <table-filter match-catalog="cargabd" match-name="semestre"/>
+</hibernate-reverse-engineering>
